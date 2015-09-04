@@ -1,0 +1,43 @@
+{
+  "name": "glint-i18n",
+  "version": "1.0.0",
+  "description": "glint internationalization (i18n) modules",
+  "main": "server.js",
+  "browser": "browser.js",
+  "browserify": {
+    "transform": [
+      [
+        "brfs"
+      ],
+      [
+        "envify",
+        {
+          "_": "purge"
+        }
+      ]
+    ]
+  },
+  "scripts": {
+    "test": " tape test/*.js"
+  },
+  "author": "Andi Neck",
+  "license": "MIT",
+  "dependencies": {
+    "after": "^0.8.1"
+  },
+  "devDependencies": {
+    "deep-equal": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glintcms/glint-i18n.git"
+  },
+  "bugs": {
+    "url": "https://github.com/glintcms/glint-i18n/issues"
+  },
+  "homepage": "https://github.com/glintcms/glint-i18n",
+  "keywords": [
+    "glint",
+    "i18n"
+  ]
+}
