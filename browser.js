@@ -1,7 +1,7 @@
 var defaults = require('defaults');
 var debug = require('debug')('glint:i18n');
 var c = require('./config');
-var Translate = require('glint-i18n/translate');
+var Translate = require('./translate');
 
 module.exports = function i18n(o) {
   window.context = window.context || {};
