@@ -1,5 +1,5 @@
 var after = require('after');
-var debug = require('debug')('glint:i18n-storage');
+var debug = require('debug')('glint-i18n:storage');
 
 module.exports = function storage(adapter) {
   if (!adapter) throw new TypeError('adapter must be provided');

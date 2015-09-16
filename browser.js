@@ -1,5 +1,5 @@
+var debug = require('debug')('glint-i18n');
 var defaults = require('defaults');
-var debug = require('debug')('glint:i18n');
 var c = require('./config');
 var Translate = require('./translate');
 
