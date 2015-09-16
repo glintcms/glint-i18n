@@ -1,6 +1,6 @@
 {
   "name": "glint-i18n",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "glint internationalization (i18n) modules",
   "main": "server.js",
   "browser": "browser.js",
